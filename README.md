@@ -15,7 +15,7 @@ Demo application using Flowplayer SDK for Android.
 
 For a detailed example, check `activity_player.xml`.
 
-### 1. XML:
+### Method 1 (via XML):
 
 Add `Flowplayer` in your layout:
 
@@ -38,7 +38,7 @@ Parameter explanation:
 4. `app:playerId` (Optional): A Flowplayer playerId.
 5. `app:loadingView` (Optional): A view that will be shown while the video enters fullscreen.
 
-### 2. Programmatically:
+### Method 2 (programmatically):
 
 1. Create a `Flowplayer` instance with one of the available constructors.
 2. Setup `fullscreenLayout`, `nonFullscreenLayout`, and, optionally, `loadingView` via `Flowplayer.setup(View nonFullscreenLayout, ViewGroup fullscreenLayout, View loadingView)`.
