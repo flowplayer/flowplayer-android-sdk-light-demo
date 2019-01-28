@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">HostedFlowplayerDemo</string>
+    <string name="app_name">Flowplayer Demo</string>
+    <string name="title1">Online video that works.</string>
+    <string name="description1">Our new player originates from a wild experiment: could we make a player that is ten times smaller than the others, yet solves the myriad problems specific to the media
+        industry?</string>
+    <string name="title2">Better live streaming.</string>
+    <string name="description2">Our improved live streaming aims to solve the three common use cases having different requirements from the platform. For example, AMedia uses Flowplayer to broadcast over 100 sports events every day.</string>
+    <string name="title3">A better way to advertise.</string>
+    <string name="description3">Our new advertising solution is based on ad schedules that greatly simplify the complexity around ads. According to Stampen media this is "the most important addition in their toolbox" and they were able to increase ad revenue just by having all the ad stuff in their right places.</string>
+    <string name="title4">Better analytics.</string>
+    <string name="description4">Our improved analytics put more emphasis on how the viewers initially engaged with the video after it was published.</string>
 </resources>

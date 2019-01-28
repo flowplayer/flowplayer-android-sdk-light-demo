@@ -1,0 +1,97 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/nonFullscreenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.flowplayer.player.Flowplayer
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            app:fullscreenLayout="@id/fullscreenLayout"
+            app:loadingView="@id/fullscreenLoadingView"
+            app:mediaId="69891ec1-2d90-423c-9892-5a9ee87b6d86"
+            app:nonFullscreenLayout="@id/nonFullscreenLayout"
+            app:playerId="ac6dea7c-acf1-472a-bdab-efdd85f092f1" />
+
+        <ScrollView
+            android:id="@+id/contents"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title1" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description1" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title2" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description2" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title3" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description3" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title4" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description4" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fullscreenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/fullscreenLoadingView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
