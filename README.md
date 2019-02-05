@@ -11,6 +11,7 @@ Demo application using Flowplayer SDK for Android.
 1. If you haven't already, configure Kotlin at your Android Studio project.
 2. Add library dependency:
 
+[ ![Download](https://api.bintray.com/packages/flowplayer/maven/flowplayer/images/download.svg) ](https://bintray.com/flowplayer/maven/flowplayer/_latestVersion)
 ```
 repositories {
     maven {
