@@ -13,13 +13,6 @@ Demo application using Flowplayer SDK for Android.
 
 [ ![Download](https://api.bintray.com/packages/flowplayer/maven/flowplayer/images/download.svg) ](https://bintray.com/flowplayer/maven/flowplayer/_latestVersion)
 ```
-repositories {
-    maven {
-        url 'https://dl.bintray.com/flowplayer/maven/'
-    }
-}
-
-
 implementation 'com.flowplayer.flowplayer:flowplayer:#.#.#'
 ```
 
