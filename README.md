@@ -1,5 +1,5 @@
-# Flowplayer Demo
-Demo application using Flowplayer SDK for Android.
+# Flowplayer Light Demo
+Demo application using Flowplayer Light SDK for Android.
 
 # Requirements
 
