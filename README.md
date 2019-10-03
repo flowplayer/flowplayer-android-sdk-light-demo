@@ -1,3 +1,8 @@
+***
+___This product is no longer supported. Please contact to support@flowplayer.com for an alternative product.__
+
+***
+
 # Flowplayer Light Demo
 Demo application using Flowplayer Light SDK for Android.
 
