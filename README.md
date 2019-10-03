@@ -1,5 +1,5 @@
 ***
-___This product is no longer supported. Please contact to support@flowplayer.com for an alternative product.__
+__This product is no longer supported. Please contact to support@flowplayer.com for an alternative product.__
 
 ***
 
